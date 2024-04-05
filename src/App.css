@@ -1,38 +1,139 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #FDBCB4;
+  color: #003262;
+  font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
+}
+
+.header-box {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#the-rundown {
+  padding: 2% 4%;
+  font-size: 1em;
+  display: none;
+  background-color: white;
+  margin: 2%;
+}
+
+.game-title {
+  width: 45vw;
+  font-size: 1.1em;
+}
+
+.more-button {
+  width: 40vw;
+}
+
+.sub-meter {
+  text-align: left;
+}
+
+.bar-icon {
+  color: black;
+  font-size: 1.2em;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.meters {
+  margin-top: 3vh;
+  padding: 3%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.actions {
+  /* border: 1px solid black; */
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.actions div {
+  width: 80vw;
+  margin-left: 10vw;
+  /* border: 1px solid green; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button-container {
+  padding-top: 2%;
+}
+
+.button-tag {
+  margin-top: 2%;
+  font-size: 1em;
+}
+
+#alert-box {
+  /* padding: 3%; */
+  position: absolute;
+  top: 15vh;
+  left: 15vw;
+  z-index: +1;
+  width: 70vw;
+  height: 25vh;
+  background-color: #003262;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.alert-main {
+  margin: 3%;
+  height: 50%;
+  font-size: 1.3em;
+  /* border: 1px solid red; */
+  vertical-align: middle;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.alert-do {
+  margin: 5%;
+  margin-top: 0;
+  /* border: 1px solid green; */
+}
+
+.alert-do button {
+  border: none;
+  background-color: #FDBCB4;
+  padding: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) {
+  #alert-box {
+    top: 20vh;
+    left: 30vw;
+    width: 40vw;
   }
-  to {
-    transform: rotate(360deg);
+
+  .meters {
+    margin-top: 1vh;
+    margin-bottom: 0vh;
+    padding: 1%;
+  }
+
+  .actions {
+    margin-top: 1vh;
+  }
+
+  .actions div {
+    width: 66vw;
+    margin-left: 17vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .alert-box {
+    left: 28vw;
+    width: 44vw;
   }
 }

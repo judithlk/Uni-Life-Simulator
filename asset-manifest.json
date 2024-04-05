@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uni-life-simulator/static/css/main.99c73682.css",
+    "main.js": "/uni-life-simulator/static/js/main.882cd4c3.js",
+    "static/js/453.5ebd9bcf.chunk.js": "/uni-life-simulator/static/js/453.5ebd9bcf.chunk.js",
+    "index.html": "/uni-life-simulator/index.html",
+    "main.99c73682.css.map": "/uni-life-simulator/static/css/main.99c73682.css.map",
+    "main.882cd4c3.js.map": "/uni-life-simulator/static/js/main.882cd4c3.js.map",
+    "453.5ebd9bcf.chunk.js.map": "/uni-life-simulator/static/js/453.5ebd9bcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99c73682.css",
+    "static/js/main.882cd4c3.js"
+  ]
+}
